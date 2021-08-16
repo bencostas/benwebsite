@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Wave from 'react-wavify';
+import Skyline from './torontoskyline.svg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={Skyline} alt="Toronto Skyline" className="skyline"></img>
+      <Wave fill='#76c2e3ff'
+      paused={false}
+      options={{
+        height: 70,
+        amplitude: 25,
+        speed: 0.3,
+        points: 4
+      }}/>
+      <div className='wave-2'>
+      <Wave fill='#6c85bdff'
+      paused={false}
+      options={{
+        height: 30,
+        amplitude: 30,
+        speed: 0.3,
+        points: 6
+      }}/>
+      </div> 
     </div>
   );
 }

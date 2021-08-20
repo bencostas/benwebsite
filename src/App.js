@@ -36,9 +36,17 @@ function App() {
         }}/>
         </div>
         <div className="introbox">
+          <Parallax
+          x={["-35%", "5%"]}>
+          <h3>About Me</h3>
+          </Parallax>
         </div>
 
         <div className="projects">
+        <Parallax
+          x={["25%", "-10%"]}>
+          <h3>Projects</h3>
+          </Parallax>
         </div>
         </Parallax>
       </div>

@@ -50,8 +50,13 @@ body {
   height: 800px;
   width: 100%;
   background-color: #6c85bdff;
-  margin-top: -100px;
+  margin-top: -120px;
   border-radius: 100px;
+}
+
+.introbox h3 {
+  text-decoration: overline;
+  padding-top: 100px;
 }
 
 .projects {
@@ -60,4 +65,9 @@ body {
   background-color: #2A2D48;
   border-radius: 100px;
   margin-top: 100px;
+}
+
+.projects h3 {
+  text-decoration: overline;
+  padding-top: 100px;
 }

@@ -8,7 +8,7 @@ function App() {
     <ParallaxProvider className="App">
       <div className="App">
         <Parallax
-        y={["-500px","600px"]
+        y={["-500px","400px"]
         }
         >
         <h1 className="BenCostas-text">Hi, I'm Ben Costas</h1>
@@ -36,6 +36,9 @@ function App() {
         }}/>
         </div>
         <div className="introbox">
+        </div>
+
+        <div className="projects">
         </div>
         </Parallax>
       </div>

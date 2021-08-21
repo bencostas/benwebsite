@@ -71,3 +71,12 @@ body {
   text-decoration: overline;
   padding-top: 100px;
 }
+
+.swiper-container {
+  width: 700px;
+  height: 700px;
+}
+
+.project-gallery {
+  margin-top: 50px;
+}

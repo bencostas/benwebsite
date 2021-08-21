@@ -2,6 +2,14 @@ import './App.css';
 import Wave from 'react-wavify';
 import Skyline from './torontoskyline.svg';
 import {ParallaxProvider, Parallax} from 'react-scroll-parallax';
+import {Swiper, SwiperSlide} from 'swiper/react';
+
+import "swiper/swiper.min.css";
+import "swiper/components/effect-cube/effect-cube.min.css";
+import "swiper/components/pagination/pagination.min.css";
+
+import SwiperCore, {EffectCube, Pagination} from "swiper/core";
+SwiperCore.use([EffectCube, Pagination]);
 
 function App() {
   return (
@@ -43,10 +51,32 @@ function App() {
         </div>
 
         <div className="projects">
-        <Parallax
-          x={["25%", "-10%"]}>
+
+          <Parallax
+          x={["25%", "-8%"]}>
           <h3>Projects</h3>
           </Parallax>
+
+          <Swiper
+          effect={"cube"}
+          loop={true}
+          pagination={true}
+          cubeEffect={{
+            shadowScale: 0,
+          }}
+          className={"project-gallery"}>
+            <SwiperSlide>
+              <div>
+              <h4>Pace - Running App</h4>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <h4>Fitness Emailer Bot</h4>
+            </SwiperSlide>
+            <SwiperSlide>
+              <h4>To-Do List - Chrome Extension</h4>
+            </SwiperSlide>
+          </Swiper>
         </div>
         </Parallax>
       </div>

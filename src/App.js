@@ -7,6 +7,7 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import "swiper/swiper.min.css";
 import "swiper/components/effect-cube/effect-cube.min.css";
 import "swiper/components/pagination/pagination.min.css";
+import 'font-awesome/css/font-awesome.min.css';
 
 import SwiperCore, {EffectCube, Pagination} from "swiper/core";
 SwiperCore.use([EffectCube, Pagination]);
@@ -44,18 +45,11 @@ function App() {
         }}/>
         </div>
         <div className="introbox">
-          <Parallax
-          x={["-35%", "5%"]}>
           <h3>About Me</h3>
-          </Parallax>
         </div>
 
         <div className="projects">
-
-          <Parallax
-          x={["25%", "-8%"]}>
           <h3>Projects</h3>
-          </Parallax>
 
           <Swiper
           effect={"cube"}
@@ -66,15 +60,82 @@ function App() {
           }}
           className={"project-gallery"}>
             <SwiperSlide>
-              <div>
-              <h4>Pace - Running App</h4>
+
+              <div className="project-title">
+                <text>Pace</text>
+              </div>
+              <div className="github-tag">
+                <a href="https://github.com/bencostas/Pace-Running-App">
+                  <i className="fa fa-github"></i>
+                </a>
+              </div>
+              <div className="project-description">
+
+              </div>
+              <div className="project-visual">
+
+              </div>
+              <div className="project-technologies">
+
+              </div>
+
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="project-title">
+                <text>Fitness Emailer Bot</text>
+              </div>
+              <div className="github-tag">
+                <a href="https://github.com/bencostas/fitness-emailer-bot">
+                  <i className="fa fa-github"></i>
+                </a>
+              </div>
+              <div className="project-description">
+
+              </div>
+              <div className="project-visual">
+
+              </div>
+              <div className="project-technologies">
+
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <h4>Fitness Emailer Bot</h4>
+              <div className="project-title">
+                <text>To Do List</text>
+              </div>
+              <div className="github-tag">
+                <a href="https://github.com/bencostas/todolistextension">
+                  <i className="fa fa-github"></i>
+                </a>
+              </div>
+              <div className="project-description">
+
+              </div>
+              <div className="project-visual">
+
+              </div>
+              <div className="project-technologies">
+
+              </div>
             </SwiperSlide>
             <SwiperSlide>
-              <h4>To-Do List - Chrome Extension</h4>
+              <div className="project-title">
+                <text>This Website!</text>
+              </div>
+              <div className="github-tag">
+                <a href="https://github.com/bencostas/Pace-Running-App">
+                  <i className="fa fa-github"></i>
+                </a>
+              </div>
+              <div className="project-description">
+
+              </div>
+              <div className="project-visual">
+
+              </div>
+              <div className="project-technologies">
+
+              </div>
             </SwiperSlide>
           </Swiper>
         </div>

@@ -8,13 +8,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: monospace;
+  font-family: Ubuntu;
 }
 
 body {
   font-size: calc(10px + 2vmin);
   color: white;
-  background: linear-gradient(70deg, #cc9228, #838383, #9813b3);
+  background: linear-gradient(70deg, #cc5c28, #b4ab8e, #9813b3);
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
 }
@@ -71,8 +71,8 @@ body {
 }
 
 .swiper-container {
-  width: 810px;
-  height: 710px;
+  width: 800px;
+  height: 700px;
 }
 
 .project-gallery {
@@ -82,7 +82,8 @@ body {
 .fa-github {
   color: white;
   size: 50px;
-  margin-right: 55%;
+  margin-right: 60%;
+  margin-top: 25px;
 }
 
 .fa-github:hover {
@@ -93,13 +94,12 @@ body {
   text-align: center;
   width: 460px;
   height: 100px;
-}
-.project-title text {
-  font-size: 30px;
-  margin-top: -550px;
-  padding-top: 100px;
+  line-height: 90px;
 }
 
+.project-text {
+  font-size: 40px;
+}
 .github-tag {
   width: 330px;
   height: 100px;
@@ -136,7 +136,8 @@ body {
   width: 440px;
   height: 455px;
   margin-left: 10px;
-  background-color: #292f42;
+  background-color: #2A2D48;
+  border-radius: 20px;
 }
 
 .project-visual {
@@ -148,6 +149,7 @@ body {
   margin-bottom: 5px;
   margin-left: 5px;
   background-color: #000000;
+  border-radius: 20px;
 }
 
 .project-technologies {

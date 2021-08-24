@@ -65,7 +65,7 @@ function App() {
             <SwiperSlide>
 
               <div className="project-title">
-                <text>Pace</text>
+                <text className="project-text">Pace</text>
               </div>
               <div className="github-tag">
                 <a href="https://github.com/bencostas/Pace-Running-App">
@@ -85,7 +85,7 @@ function App() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="project-title">
-                <text>Fitness Emailer Bot</text>
+                <text className="project-text">Fitness Emailer Bot</text>
               </div>
               <div className="github-tag">
                 <a href="https://github.com/bencostas/fitness-emailer-bot">

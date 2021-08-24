@@ -3,6 +3,7 @@ import Wave from 'react-wavify';
 import Skyline from './torontoskyline.svg';
 import ToDoListGif from './todolist-gif.gif';
 import PaceGif from './pace-gif.gif';
+import FitnessBotGif from './fitnessbot-gif.gif';
 import {ParallaxProvider, Parallax} from 'react-scroll-parallax';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
@@ -95,7 +96,7 @@ function App() {
 
               </div>
               <div className="project-visual">
-
+                 <img src={FitnessBotGif} alt="fitnessbotgif" id="fitness-gif"></img>
               </div>
               <div className="project-technologies">
 

@@ -82,7 +82,7 @@ body {
 .fa-github {
   color: white;
   size: 50px;
-  margin-right: 40%;
+  margin-right: 55%;
 }
 
 .fa-github:hover {
@@ -107,6 +107,7 @@ body {
   left: 560px;
   top: 0px;
   text-align: center;
+  align-content: center;
 }
 
 .github-tag a {
@@ -118,7 +119,8 @@ body {
   border-style: solid;
   border-color: #00000000;
   border-radius: 30px;
-  box-shadow: 0 0 20px #a0a0a050;
+  box-shadow: 0 0 30px #c7c7c750;
+  background-color: #6c64b1;
 }
 
 .swiper-pagination > .swiper-pagination-bullet {
@@ -135,23 +137,17 @@ body {
   height: 455px;
   margin-left: 10px;
   background-color: #292f42;
-  border-radius: 20px;
-  border-color: #ffffff3d;
-  border-width: 3px;
-  border-style: solid;
 }
-
 
 .project-visual {
   width: 325px;
-  height: 460px;
+  height: 455px;
   position:absolute;
   left: 460px;
   top: 100px;
-  border-radius: 50px;
   margin-bottom: 5px;
   margin-left: 5px;
-  background-color: black;
+  background-color: #000000;
 }
 
 .project-technologies {
@@ -161,7 +157,6 @@ body {
 }
 
 #todolist-gif {
-  border-radius: 50px;
   margin-top: 25%;
   width: 320px;
 }
@@ -171,4 +166,10 @@ body {
   height: 420px;
   margin-top: 20px;
   border-radius: 20px;
+}
+
+#fitness-gif {
+  width: 320px;
+  height: 300px;
+  margin-top: 70px;
 }

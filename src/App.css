@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: Cambria;
+  font-family: monospace;
 }
 
 body {
@@ -71,27 +71,22 @@ body {
 }
 
 .swiper-container {
-  width: 800px;
-  height: 700px;
+  width: 810px;
+  height: 710px;
 }
 
 .project-gallery {
   margin-top: 50px;
 }
 
-.swiper-slide {
-  flex-direction: row;
-}
-
 .fa-github {
   color: white;
   size: 50px;
+  margin-right: 40%;
 }
 
 .fa-github:hover {
-
   text-shadow: 0 0 10px #71d2ff;
-
 }
 
 .project-title {
@@ -100,23 +95,30 @@ body {
   height: 100px;
 }
 .project-title text {
-  font-size: 50px;
+  font-size: 30px;
   margin-top: -550px;
   padding-top: 100px;
 }
 
 .github-tag {
-  width: 30%;
+  width: 330px;
   height: 100px;
-  width: 30%;
   position: absolute;
   left: 560px;
   top: 0px;
+  text-align: center;
 }
 
 .github-tag a {
   font-size: 50px;
-  
+}
+
+.swiper-slide {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #00000000;
+  border-radius: 30px;
+  box-shadow: 0 0 20px #a0a0a050;
 }
 
 .swiper-pagination > .swiper-pagination-bullet {
@@ -129,29 +131,44 @@ body {
 }
 
 .project-description {
-  width: 460px;
+  width: 440px;
   height: 455px;
-  background-color: #31384e;
-  border-radius: 20px 120px;
-  border-color: #ffffff50;
+  margin-left: 10px;
+  background-color: #292f42;
+  border-radius: 20px;
+  border-color: #ffffff3d;
   border-width: 3px;
   border-style: solid;
-  box-shadow: 0 0 300px #e4000050;
 }
+
 
 .project-visual {
   width: 325px;
-  height: 455px;
+  height: 460px;
   position:absolute;
   left: 460px;
   top: 100px;
   border-radius: 50px;
   margin-bottom: 5px;
-  margin-left: 10px;
+  margin-left: 5px;
+  background-color: black;
 }
 
 .project-technologies {
   width: 100%;
   height: 100px;
   margin-top: 5px;
+}
+
+#todolist-gif {
+  border-radius: 50px;
+  margin-top: 25%;
+  width: 320px;
+}
+
+#pace-gif {
+  width: 200px;
+  height: 420px;
+  margin-top: 20px;
+  border-radius: 20px;
 }

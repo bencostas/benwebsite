@@ -1,6 +1,8 @@
 import './App.css';
 import Wave from 'react-wavify';
 import Skyline from './torontoskyline.svg';
+import ToDoListGif from './todolist-gif.gif';
+import PaceGif from './pace-gif.gif';
 import {ParallaxProvider, Parallax} from 'react-scroll-parallax';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
@@ -73,7 +75,7 @@ function App() {
 
               </div>
               <div className="project-visual">
-
+                <img src={PaceGif} alt="pacegif" id="pace-gif"></img>
               </div>
               <div className="project-technologies">
 
@@ -112,7 +114,7 @@ function App() {
 
               </div>
               <div className="project-visual">
-
+                <img src={ToDoListGif} alt="todolist" id="todolist-gif"></img>
               </div>
               <div className="project-technologies">
 
@@ -123,7 +125,7 @@ function App() {
                 <text>This Website!</text>
               </div>
               <div className="github-tag">
-                <a href="https://github.com/bencostas/Pace-Running-App">
+                <a href="https://github.com/bencostas/benwebsite">
                   <i className="fa fa-github"></i>
                 </a>
               </div>

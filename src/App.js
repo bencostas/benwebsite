@@ -120,21 +120,18 @@ function App() {
               <div className="project-technologies" id="todolist-tech">
                 <ul>
                   <li>
-                  <i className="fa fa-html5"></i>
+                    <i className="fa fa-html5"></i>
                   </li>
                   <li>
-                  <i className="fa fa-css3"></i>
+                    <i className="fa fa-css3"></i>
                   </li>
                   <li>
-                  <img className="js-font"src="https://img.icons8.com/ios-glyphs/30/ffffff/javascript.png" alt="js"></img>
+                    <img className="js-font"src="https://img.icons8.com/ios-glyphs/30/ffffff/javascript.png" alt="js"></img>
                   </li>
                 </ul>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-
-
-              
               <div className="project-title">
                 <text>This Website!</text>
               </div>

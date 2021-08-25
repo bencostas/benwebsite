@@ -117,8 +117,18 @@ function App() {
               <div className="project-visual">
                 <img src={ToDoListGif} alt="todolist" id="todolist-gif"></img>
               </div>
-              <div className="project-technologies">
-
+              <div className="project-technologies" id="todolist-tech">
+                <ul>
+                  <li>
+                  <i className="fa fa-html5"></i>
+                  </li>
+                  <li>
+                  <i className="fa fa-css3"></i>
+                  </li>
+                  <li>
+                  <img className="js-font"src="https://img.icons8.com/ios-glyphs/30/ffffff/javascript.png" alt="js"></img>
+                  </li>
+                </ul>
               </div>
             </SwiperSlide>
             <SwiperSlide>

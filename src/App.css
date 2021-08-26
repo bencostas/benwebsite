@@ -180,6 +180,10 @@ body {
   border-radius: 20px;
 }
 
+.project-technologies ul li:hover {
+  box-shadow: 0px 0px 30px #ffb0fbdc;
+}
+
 #todolist-gif {
   margin-top: 25%;
   width: 320px;

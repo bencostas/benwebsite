@@ -7,7 +7,7 @@ import FitnessBotGif from './fitnessbot-gif.gif';
 import {ParallaxProvider, Parallax} from 'react-scroll-parallax';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCss3Alt, faGithub, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faAws, faCss3Alt, faFigma, faGithub, faGoogle, faHtml5, faJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
 
 import "swiper/swiper.min.css";
 import "swiper/components/effect-cube/effect-cube.min.css";
@@ -81,7 +81,17 @@ function App() {
                 <img src={PaceGif} alt="pacegif" id="pace-gif"></img>
               </div>
               <div className="project-technologies">
-                <FontAwesomeIcon icon={faReact} />
+                <ul>
+                  <li>
+                    <FontAwesomeIcon icon={faReact} />
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faGoogle}/>
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faFigma}/>
+                  </li>
+                </ul>
               </div>
 
             </SwiperSlide>
@@ -101,7 +111,17 @@ function App() {
                  <img src={FitnessBotGif} alt="fitnessbotgif" id="fitness-gif"></img>
               </div>
               <div className="project-technologies">
-
+                <ul>
+                  <li>
+                    <FontAwesomeIcon icon={faAws}/>
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faPython}/>
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faGoogle}/>
+                  </li>
+                </ul>
               </div>
             </SwiperSlide>
             <SwiperSlide>

@@ -86,10 +86,6 @@ body {
   margin-top: 25px;
 }
 
-.fa-github:hover {
-  text-shadow: 0 0 10px #71d2ff;
-}
-
 .project-title {
   text-align: center;
   width: 460px;

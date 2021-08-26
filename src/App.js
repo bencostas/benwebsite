@@ -6,6 +6,8 @@ import PaceGif from './pace-gif.gif';
 import FitnessBotGif from './fitnessbot-gif.gif';
 import {ParallaxProvider, Parallax} from 'react-scroll-parallax';
 import {Swiper, SwiperSlide} from 'swiper/react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCss3Alt, faGithub, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 
 import "swiper/swiper.min.css";
 import "swiper/components/effect-cube/effect-cube.min.css";
@@ -69,7 +71,7 @@ function App() {
               </div>
               <div className="github-tag">
                 <a href="https://github.com/bencostas/Pace-Running-App">
-                  <i className="fa fa-github"></i>
+                  <FontAwesomeIcon icon={faGithub}/>
                 </a>
               </div>
               <div className="project-description">
@@ -79,7 +81,7 @@ function App() {
                 <img src={PaceGif} alt="pacegif" id="pace-gif"></img>
               </div>
               <div className="project-technologies">
-
+                <FontAwesomeIcon icon={faReact} />
               </div>
 
             </SwiperSlide>
@@ -89,7 +91,7 @@ function App() {
               </div>
               <div className="github-tag">
                 <a href="https://github.com/bencostas/fitness-emailer-bot">
-                  <i className="fa fa-github"></i>
+                <FontAwesomeIcon icon={faGithub}/>
                 </a>
               </div>
               <div className="project-description">
@@ -108,7 +110,7 @@ function App() {
               </div>
               <div className="github-tag">
                 <a href="https://github.com/bencostas/todolistextension">
-                  <i className="fa fa-github"></i>
+                  <FontAwesomeIcon icon={faGithub}/>
                 </a>
               </div>
               <div className="project-description">
@@ -120,13 +122,13 @@ function App() {
               <div className="project-technologies" id="todolist-tech">
                 <ul>
                   <li>
-                    <i className="fa fa-html5"></i>
+                    <FontAwesomeIcon icon={faHtml5}/>
                   </li>
                   <li>
-                    <i className="fa fa-css3"></i>
+                    <FontAwesomeIcon icon={faCss3Alt}/>
                   </li>
                   <li>
-                    <img className="js-font"src="https://img.icons8.com/ios-glyphs/30/ffffff/javascript.png" alt="js"></img>
+                    <FontAwesomeIcon icon={faJs}/>
                   </li>
                 </ul>
               </div>
@@ -137,7 +139,7 @@ function App() {
               </div>
               <div className="github-tag">
                 <a href="https://github.com/bencostas/benwebsite">
-                  <i className="fa fa-github"></i>
+                <FontAwesomeIcon icon={faGithub}/>
                 </a>
               </div>
               <div className="project-description">

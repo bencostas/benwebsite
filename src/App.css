@@ -14,7 +14,7 @@
 body {
   font-size: calc(10px + 2vmin);
   color: white;
-  background: linear-gradient(70deg, #cc5c28, #b4ab8e, #9813b3);
+  background: linear-gradient(70deg, #e9c85c, #f78e51, #9813b3);
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
 }
@@ -129,11 +129,20 @@ body {
 }
 
 .project-description {
-  width: 440px;
-  height: 455px;
-  margin-left: 10px;
+  width: 410px;
+  height: 415px;
+  margin-left: 5px;
   background-color: #2A2D48;
   border-radius: 20px;
+  padding: 20px;
+  padding-right: 20px;
+}
+
+.project-description p {
+  font-size: 24px;
+  position: relative;
+  text-align: left;
+  margin: auto;
 }
 
 .project-visual {
@@ -166,6 +175,12 @@ body {
 
 #todolist-tech {
   margin-left: 180px;
+}
+#fitness-tech {
+  margin-left: 165px;
+}
+#pace-tech {
+  margin-left: 170px;
 }
 
 .project-technologies ul li {
@@ -200,17 +215,4 @@ body {
   width: 320px;
   height: 300px;
   margin-top: 70px;
-}
-
-.fa-html5 {
-  margin-top: 10px;
-}
-
-.fa-css3 {
-  margin-top: 10px;
-}
-
-.js-font {
-  height: 50px;
-  margin-top: 10px;
 }

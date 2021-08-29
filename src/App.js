@@ -75,12 +75,14 @@ function App() {
                 </a>
               </div>
               <div className="project-description">
-
+                <p>
+                  Pace is a Running App I designed using Figma and implemented using React Native and various APIs. Quarantine has had a detrimental effect on my health, and I believe that building an application will encourage myself to get back in shape. Pace is capable of tracking and timing your runs, toggling your phone's flashlight if you plan on running when it's dark, and saving and clearing your runs using AsyncStorage.
+                </p>
               </div>
               <div className="project-visual">
                 <img src={PaceGif} alt="pacegif" id="pace-gif"></img>
               </div>
-              <div className="project-technologies">
+              <div className="project-technologies" id="pace-tech">
                 <ul>
                   <li>
                     <FontAwesomeIcon icon={faReact} />
@@ -105,12 +107,12 @@ function App() {
                 </a>
               </div>
               <div className="project-description">
-
+                <p>I tend to plan out my weekly fitness schedule using a Google Sheet. I created this simple script to send myself an email of the exercises and meals for the day of the week. The script was made using Python and is run on an AWS EC2 Instance Ubuntu server which uses crontab to send daily emails. Google Cloud, Service, Sheets API and smtp library were used to make the email functionality possible.</p>
               </div>
               <div className="project-visual">
                  <img src={FitnessBotGif} alt="fitnessbotgif" id="fitness-gif"></img>
               </div>
-              <div className="project-technologies">
+              <div className="project-technologies" id="fitness-tech">
                 <ul>
                   <li>
                     <FontAwesomeIcon icon={faAws}/>
@@ -134,7 +136,9 @@ function App() {
                 </a>
               </div>
               <div className="project-description">
-
+                <p>
+                This is a Chrome Extension I created using Google Chrome Extension API, HTML, CSS, and JavaScript. I decided to create it strictly for the convenience of having a portable to-do list integrated into your browser. This has allowed me to be constantly productive which can be helpful during long study sessions. This application is capable of adding and deleting todos and saves them in your browser using local storage.
+                </p>
               </div>
               <div className="project-visual">
                 <img src={ToDoListGif} alt="todolist" id="todolist-gif"></img>

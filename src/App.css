@@ -2,7 +2,6 @@
   text-align: center;
   width: 100%;
   height: 100%;
-
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,7 +13,7 @@
 body {
   font-size: calc(10px + 2vmin);
   color: white;
-  background: linear-gradient(70deg, #e9c85c, #f78e51, #9813b3);
+  background: linear-gradient(70deg, #eed06c, #f78e51, #9313b3);
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
 }
@@ -47,22 +46,117 @@ body {
 }
 
 .introbox {
-  height: 800px;
+  height:1000px;
   width: 100%;
   background-color: #6c85bdff;
-  margin-top: -120px;
+  padding-top: 100px;
+  position: relative;
+  top: -10px;
 }
 
-.introbox h3 {
-  text-decoration: overline;
-  padding-top: 100px;
+.info {
+  width: 1100px;
+  height: 900px;
+  background-color: #f7f7f7;
+  border-radius: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -50px;
+  box-shadow: 0px 0px 20px #d8f4ff
+}
+
+.info h3 {
+  color: black;
+  padding-top: 50px;
+}
+
+.picture {
+  width: 440px;
+  height: 500px;
+  background-color: #f7f7f7;
+  outline: none;
+  position: absolute;
+  left: 20px;
+  border-radius: 50px;
+}
+
+.benlogo {
+  margin-top: 100px;
+}
+
+.aboutme {
+  width: 540px;
+  height: 700px;
+  position: absolute;
+  left: 480px;
+  top: 150px;
+  border-radius: 90px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #e5e5e5;
+  outline: none;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.aboutme p {
+  color: black;
+  font-size: 25px;
+  text-align: left;
+}
+
+.links {
+  width: 440px;
+  height: 100px;
+  position: absolute;
+  background-color: #f7f7f7;
+  left: 20px;
+  bottom: 100px;
+  border-radius: 30px;
+}
+
+.links ul {
+  display: flex;
+  justify-content: left;
+  list-style-type: none;
+  margin: auto;
+  margin-left: 50px;
+}
+
+.links ul li {
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.links ul li .fa-github {
+  color: black;
+  size: 50px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+
+.links ul li .fa-envelope {
+  color: black;
+}
+
+.links ul li .fa-linkedin {
+  color: black;
 }
 
 .projects {
-  height: 1000px;
+  height: 1100px;
   width: 100%;
   background-color: #2A2D48;
   margin-top: 100px;
+}
+
+.projects p {
+  font-size: 35px;
 }
 
 .projects h3 {

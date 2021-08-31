@@ -4,10 +4,11 @@ import Skyline from './torontoskyline.svg';
 import ToDoListGif from './todolist-gif.gif';
 import PaceGif from './pace-gif.gif';
 import FitnessBotGif from './fitnessbot-gif.gif';
+import BenLogo from './BenLogo-BlackBackground.png';
 import {ParallaxProvider, Parallax} from 'react-scroll-parallax';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAws, faCss3Alt, faFigma, faGithub, faGoogle, faHtml5, faJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faAws, faCss3Alt, faFigma, faGithub, faGoogle, faHtml5, faJs, faLinkedin, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
 
 import "swiper/swiper.min.css";
 import "swiper/components/effect-cube/effect-cube.min.css";
@@ -15,6 +16,7 @@ import "swiper/components/pagination/pagination.min.css";
 import 'font-awesome/css/font-awesome.min.css';
 
 import SwiperCore, {EffectCube, Pagination} from "swiper/core";
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 SwiperCore.use([EffectCube, Pagination]);
 
 function App() {
@@ -49,12 +51,67 @@ function App() {
           points: 6
         }}/>
         </div>
+
         <div className="introbox">
-          <h3>About Me</h3>
+          <div className="info">
+            <h3>Nice to meet you!</h3>
+            <div className="picture">
+            <img src={BenLogo} alt="Ben Logo" className="benlogo"/>
+            </div>
+            <div className="aboutme">
+              <p>
+              I'm a university student and an aspiring software engineer. I've been coding for 5 years.
+              <br/>
+              <br/>
+              I'm passionate and ambitious about creating meaningful and impactful technological solutions to everyday life. 
+              <br/>
+              <br/>
+              I hope to expand my toolbelt by working with many new skills and technologies.
+              <br/>
+              <br/>
+              Aside from coding, I also enjoy:
+              <ul>
+                <li>
+                Weightlifting and playing sports
+                </li>
+                <li>
+                Gaming
+                </li>
+                <li>
+                Watching non-horror TV shows and films
+                </li>
+                <li>
+                Eating food! (w/o peanuts and nuts)
+                </li>
+              </ul>
+              </p>
+            </div>
+            <div className="links">
+              <ul>
+                <li>
+                  <a href="https://github.com/bencostas">
+                  <FontAwesomeIcon icon={faGithub}/>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:bencostas@gmail.com">
+                  <FontAwesomeIcon icon={faEnvelope}/>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/bencostas/">
+                  <FontAwesomeIcon icon={faLinkedin}/>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <div className="projects">
           <h3>Projects</h3>
+
+          <p>Here's a little gallery of some of the projects I've been working on</p>
 
           <Swiper
           effect={"cube"}
@@ -173,7 +230,11 @@ function App() {
 
               </div>
               <div className="project-technologies">
-
+                <ul>
+                  <li>
+                  <FontAwesomeIcon icon={faReact} />
+                  </li>
+                </ul>
               </div>
             </SwiperSlide>
           </Swiper>

@@ -276,7 +276,9 @@ body {
 #pace-tech {
   margin-left: 170px;
 }
-
+#website {
+  margin-left: 295px;
+}
 .project-technologies ul li {
   margin-top: 10px;
   margin-left: 20px;
@@ -309,4 +311,17 @@ body {
   width: 320px;
   height: 300px;
   margin-top: 70px;
+}
+
+#website-gif {
+  margin-top: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  background: #2A2D48;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6c64b1;
 }

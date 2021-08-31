@@ -4,6 +4,7 @@ import Skyline from './torontoskyline.svg';
 import ToDoListGif from './todolist-gif.gif';
 import PaceGif from './pace-gif.gif';
 import FitnessBotGif from './fitnessbot-gif.gif';
+import WebsiteGif from './website-gif.gif';
 import BenLogo from './BenLogo-BlackBackground.png';
 import {ParallaxProvider, Parallax} from 'react-scroll-parallax';
 import {Swiper, SwiperSlide} from 'swiper/react';
@@ -24,7 +25,7 @@ function App() {
     <ParallaxProvider className="App">
       <div className="App">
         <Parallax
-        y={["-500px","400px"]
+        y={["-350px","500px"]
         }
         >
         <h1 className="BenCostas-text">Hi, I'm Ben Costas</h1>
@@ -224,12 +225,14 @@ function App() {
                 </a>
               </div>
               <div className="project-description">
-
+                <p>
+                  This is a portfolio website I designed using React and various Apis. I created this website to display infomraiton about myself and to feature some of the projects I have been working on. I used React Wavify and React Parallax Scrolling for the animations and swiper.js for the project gallery. This website is currently being hosted on Github Pages.
+                </p>
               </div>
               <div className="project-visual">
-
+                <img src={WebsiteGif} alt="website gif" id="website-gif"/>
               </div>
-              <div className="project-technologies">
+              <div className="project-technologies" id="website">
                 <ul>
                   <li>
                   <FontAwesomeIcon icon={faReact} />

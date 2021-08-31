@@ -226,7 +226,7 @@ function App() {
               </div>
               <div className="project-description">
                 <p>
-                  This is a portfolio website I designed using React and various Apis. I created this website to display infomraiton about myself and to feature some of the projects I have been working on. I used React Wavify and React Parallax Scrolling for the animations and swiper.js for the project gallery. This website is currently being hosted on Github Pages.
+                  This is a portfolio website I designed using React and various APIs. I created this website to display infomraiton about myself and to feature some of the projects I have been working on. I used React Wavify and React Parallax Scrolling for the animations and swiper.js for the project gallery. This website is currently being hosted on Github Pages.
                 </p>
               </div>
               <div className="project-visual">

@@ -11,7 +11,7 @@
 }
 
 body {
-  font-size: calc(10px + 2vmin);
+  font-size: 40px;
   color: white;
   background: linear-gradient(70deg, #eed06c, #f78e51, #9313b3);
   background-size: 200% 200%;

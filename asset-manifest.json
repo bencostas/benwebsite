@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.874675c6.chunk.css",
-    "main.js": "/static/js/main.3d3eff15.chunk.js",
-    "main.js.map": "/static/js/main.3d3eff15.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8e479726.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8e479726.js.map",
+    "main.css": "/static/css/main.cbc4714a.chunk.css",
+    "main.js": "/static/js/main.c4a6c724.chunk.js",
+    "main.js.map": "/static/js/main.c4a6c724.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.58adf920.js",
+    "runtime-main.js.map": "/static/js/runtime-main.58adf920.js.map",
     "static/css/2.dac1c328.chunk.css": "/static/css/2.dac1c328.chunk.css",
-    "static/js/2.901a6cca.chunk.js": "/static/js/2.901a6cca.chunk.js",
-    "static/js/2.901a6cca.chunk.js.map": "/static/js/2.901a6cca.chunk.js.map",
-    "static/js/3.3a3261ed.chunk.js": "/static/js/3.3a3261ed.chunk.js",
-    "static/js/3.3a3261ed.chunk.js.map": "/static/js/3.3a3261ed.chunk.js.map",
+    "static/js/2.45d1baf1.chunk.js": "/static/js/2.45d1baf1.chunk.js",
+    "static/js/2.45d1baf1.chunk.js.map": "/static/js/2.45d1baf1.chunk.js.map",
+    "static/js/3.4f327bd9.chunk.js": "/static/js/3.4f327bd9.chunk.js",
+    "static/js/3.4f327bd9.chunk.js.map": "/static/js/3.4f327bd9.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.dac1c328.chunk.css.map": "/static/css/2.dac1c328.chunk.css.map",
-    "static/css/main.874675c6.chunk.css.map": "/static/css/main.874675c6.chunk.css.map",
-    "static/js/2.901a6cca.chunk.js.LICENSE.txt": "/static/js/2.901a6cca.chunk.js.LICENSE.txt",
+    "static/css/main.cbc4714a.chunk.css.map": "/static/css/main.cbc4714a.chunk.css.map",
+    "static/js/2.45d1baf1.chunk.js.LICENSE.txt": "/static/js/2.45d1baf1.chunk.js.LICENSE.txt",
     "static/media/BenLogo-BlackBackground.a6020bd1.png": "/static/media/BenLogo-BlackBackground.a6020bd1.png",
     "static/media/fitnessbot-gif.98319e39.gif": "/static/media/fitnessbot-gif.98319e39.gif",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
@@ -23,10 +23,10 @@
     "static/media/website-gif.d85598e6.gif": "/static/media/website-gif.d85598e6.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e479726.js",
+    "static/js/runtime-main.58adf920.js",
     "static/css/2.dac1c328.chunk.css",
-    "static/js/2.901a6cca.chunk.js",
-    "static/css/main.874675c6.chunk.css",
-    "static/js/main.3d3eff15.chunk.js"
+    "static/js/2.45d1baf1.chunk.js",
+    "static/css/main.cbc4714a.chunk.css",
+    "static/js/main.c4a6c724.chunk.js"
   ]
 }
